@@ -104,13 +104,13 @@ Variables are the primary mechanism for storing data in JavaScript. Once a varia
 Variables are declared using the `var` keyword using the following format:
 
 ```js
-var num = 10
+var num = 10;
 ```
 
 - In this example, if we reference `num` later in our file, we will actually be referencing the value, which is 10. You can assign any data type to a variable and variables can even be reassigned later in the file. For example:
 
 ```js
-num = 15
+num = 15;
 ```
 
 - Notice that referencing `num` with the assignment operator `=` allows me to change its value. From here on, the value of num is 15. This can only be done with variables that have been previously declared
@@ -120,14 +120,14 @@ num = 15
 It is also possible to declare a variable without giving it a value. To do so, you simply declare the variable without providing a value, for example:
 
 ```js
-var name
+var name;
 ```
 
 - This will initialize a variable for us but not provide it a value. If we attempt to reference it before providing a value, we will receive `undefined`.
 - Variables in JavaScript are declared using camel case, meaning that the first word will be entirely lowercase, capitalizing the first letter of each subsequent word. To declare a variable using more than one word, you would format it like this:
 
 ```js
-var numToKeepTrackOf = 20
+var numToKeepTrackOf = 20;
 ```
 
 #### Data Types
@@ -153,8 +153,8 @@ In JavaScript, data is represented using the following data types:
   - Contained witin brackets `[]` with each value separated by a comma.
   - Example:
   ```js
-  var arrayOfNumbers = [1, 2, 3, 4, 5]
-  var arrayOfStrings = ['brown', 'purple', 'green', 'yellow']
+  var arrayOfNumbers = [1, 2, 3, 4, 5];
+  var arrayOfStrings = ["brown", "purple", "green", "yellow"];
   ```
   - Values in an array are referenced using _bracket notation_.
     - This means, to access a specific value in an array, we provide the following: `Array[index]`
@@ -169,11 +169,11 @@ In JavaScript, data is represented using the following data types:
   - Objects are used to represent collections of data that go together, for example:
     ```js
     var person = {
-      name: 'Andrew',
+      name: "Andrew",
       age: 27,
       married: true,
-      friends: ['Jonathan', 'Josh', 'Spencer'],
-    }
+      friends: ["Jonathan", "Josh", "Spencer"]
+    };
     ```
   - Values in objects are usually referenced using _dot notation_.
     _ For example: to access the `name` property on the object `person`, I would reference it as `person.name` which would give me the string `'Andrew'`
@@ -204,7 +204,7 @@ The condition for an if statement is contained within parentheses `()` while the
 
 ```js
 if (2 === 2) {
-  console.log('Math still works')
+  console.log("Math still works");
 }
 ```
 
@@ -212,7 +212,7 @@ if (2 === 2) {
 
 ```js
 if (2 === 2 && 2 === 4) {
-  console.log('Math is broken')
+  console.log("Math is broken");
 }
 ```
 
@@ -222,9 +222,9 @@ You can also provide `else` and `else if` statements to an if statement to handl
 
 ```js
 if (2 === 2 && 2 === 4) {
-  console.log('Math is broken')
+  console.log("Math is broken");
 } else {
-  console.log('Math still works')
+  console.log("Math still works");
 }
 ```
 
@@ -233,14 +233,14 @@ if (2 === 2 && 2 === 4) {
 Else if statements are useful when comparing many conditions and are structured identially to regular if statements. For example:
 
 ```js
-var num = 50
+var num = 50;
 
 if (num >= 0 && num < 25) {
-  console.log('Greater than zero, less than 25')
+  console.log("Greater than zero, less than 25");
 } else if (num >= 25 && num < 100) {
-  console.log('Greater than 25, less than 100')
+  console.log("Greater than 25, less than 100");
 } else {
-  console.log('Greater than 100')
+  console.log("Greater than 100");
 }
 ```
 
@@ -267,7 +267,7 @@ A function expression uses this format:
 ```js
 var nameOfFunction = function() {
   //Code to execute
-}
+};
 ```
 
 > Note: You will learn the difference between the two later in the cohort.
@@ -275,7 +275,7 @@ var nameOfFunction = function() {
 Functions are invoked by referencing the function name and pairing it with a pair of parentheses `()`. Think of these parentheses as the button you are pushing to invoke the function. For example, to invoke our above written function we would simply type:
 
 ```js
-nameOfFunction()
+nameOfFunction();
 ```
 
 > This would invoke the function and execute any code we have written inside of it.
@@ -284,7 +284,7 @@ Functions can be set up to receive parameters, or values that will change depend
 
 ```js
 function addTwo(num1, num2) {
-  return num1 + num2
+  return num1 + num2;
 }
 ```
 
@@ -293,9 +293,9 @@ function addTwo(num1, num2) {
 > To invoke this function we could do the following:
 
 ```js
-addTwo(2, 2) //Returns 4
-addTwo(3, 3) //Returns 6
-addTwo(5, 5) //Returns 10
+addTwo(2, 2); //Returns 4
+addTwo(3, 3); //Returns 6
+addTwo(5, 5); //Returns 10
 ```
 
 > This is how we make our functions reusable. When you invoke a function, the values passed to it are called arguments, they are used in the function in place of parameters.
@@ -303,8 +303,8 @@ addTwo(5, 5) //Returns 10
 We use the `return` keyword to determine the value that is returned by the function. A function can return any data type, or even another function. When we invoke a function, it becomes equal to its return value and can be assigned to a variable. For example:
 
 ```js
-var a = addTwo(2, 2) //Our variable a is now equal to 4 and can be used later
-var b = addTwo(3, 3) //Variable b is now equal to 6
+var a = addTwo(2, 2); //Our variable a is now equal to 4 and can be used later
+var b = addTwo(3, 3); //Variable b is now equal to 6
 ```
 
 > The return keyword prevents any code below it from executing. It effectively kicks us out of our function. Make sure your return statement is the last thing you want to have happen in a function.
@@ -312,20 +312,20 @@ var b = addTwo(3, 3) //Variable b is now equal to 6
 > A final example:
 
 ```js
-var name = 'Andrew'
-var name2 = 'Jonathan'
+var name = "Andrew";
+var name2 = "Jonathan";
 
 function sayHi(person) {
-  return 'Hello, ' + person + '!'
+  return "Hello, " + person + "!";
   //We are joining multiple strings together into a larger string.
   //This is known as concatenation
 }
 
 //What will be the value of the following invocations?
 
-var hiAndrew = sayHi(name)
-var hiJonathan = sayHi(name2)
-var hiBob = sayHi('Bob')
+var hiAndrew = sayHi(name);
+var hiJonathan = sayHi(name2);
+var hiBob = sayHi("Bob");
 ```
 
 > Remember: Functions and if statements can also be nested inside of each other. The possibilities are endless!
@@ -339,11 +339,11 @@ var hiBob = sayHi('Bob')
 Scope is an incredibly important topic in Javascript because it determines what has access to the variables we delcare. The rule of thumb is that code blocks are able to look up in scope but not down. For example:
 
 ```js
-var name = 'Andrew'
+var name = "Andrew";
 
 function sayHi(person) {
-  var greeting = 'Hello, ' + person + '!'
-  return greeting
+  var greeting = "Hello, " + person + "!";
+  return greeting;
 }
 ```
 
@@ -358,37 +358,57 @@ function sayHi(person) {
 Beginning with ES6, we were given new ways to declare variables. We no longer have to use the `var` keyword and can instead declare variables using the `let` keyword. We use `let` in the same way we use `var`.
 
 ```js
-let num = 10
+let num = 10;
 ```
 
 > The main difference between `let` and `var` is that var is functionally scoped, and let is block scoped. For example:
 
 ```js
 function doThing() {
-  var a = 'Dog'
-  console.log(a)
+  var a = "Dog";
+  console.log(a);
   //Prints 'Dog' to the console
   if (true) {
-    var a = 'Cat'
-    console.log(a)
+    var a = "Cat";
+    console.log(a);
     //Prints 'Cat' to the console
   }
-  console.log(a)
+  console.log(a);
   //Prints 'Cat' to the console
 }
 
 function doThing() {
-  let a = 'Dog'
-  console.log(a)
+  let a = "Dog";
+  console.log(a);
   //Prints 'Dog' to the console
   if (true) {
-    let a = 'Cat'
-    console.log(a)
+    let a = "Cat";
+    console.log(a);
     //Prints 'Cat' to the console
   }
-  console.log(a)
+  console.log(a);
   //Prints 'Dog' to the console
 }
 ```
 
 > Note: Keep in mind this is just an example. It is not a good idea to reuse variable names across various scopes, each unique variable should have an appropriate name. Good naming convention is one of the most important habits you can develop.
+
+### Additional Resources
+
+---
+
+#### General
+
+---
+
+- [JavaScript \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - General docs for JavaScript. MDN should be your first step when investigating any new JavaScript topic
+- [JavaScript basics - Learn web development \| MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) - The ultimate beginners guide to JavaScript, including instructions on connecting JavaScript and HTML.
+- [Codewars](https://www.codewars.com/dashboard) - Great resource to practice problem solving and aquaint yourself with basic JavaScript concepts.
+- [Repl.it](https://repl.it/~) - Code sandbox to practice JavaScript.
+
+#### Videos
+
+---
+
+- [Traversy Media Javascript Intro](https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=2&t=0s) - An introduction to many of the topics covered here.
+  > Although this video is long, watching it will greatly deepen your understanding of the discussed topics and prepare you for the more advanced topics we will be covering very soon.
