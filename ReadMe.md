@@ -5,8 +5,8 @@
 
 1. [JavaScript 1 Lecture Notes](#JavaScript-1-Lecture-Notes)
 1. [Additional Resources](#additional-resources)
-1. [JavaScript I Mini Project](#JavaScript-1-Mini-Project)
-1. [JavaScript I Afternoon Project](#JavaScript-1-Afternoon-Project)
+1. [JavaScript 1 Mini Project](#JavaScript-1-Mini-Project)
+1. [JavaScript 1 Afternoon Project](#JavaScript-1-Afternoon-Project)
 
 ## Student Learning Objectives
 
