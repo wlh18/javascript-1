@@ -366,7 +366,7 @@ function sayHi(person) {
 
 Beginning with ES6, we were given new ways to declare variables. We no longer have to use the `var` keyword and can instead declare variables using the `let` keyword and the `const` keyword. While `const` and `let` have unique properties that make them unique from `var`. 
 
-For example, `let` and `const` are block scoped, unlike `var`, which is "hoisted" when javascript files are run. Don't worry about hoisting for now, it will be covered later. Just know that `let` and `const` are block scoped, while `var` is not. 
+For example, `let` and `const` are block scoped, unlike `var`, which is "hoisted" when javascript files are run. Don't worry about what hoisting is for now, it will be covered later in your course. Just know that `let` and `const` are block scoped, while `var` is not. 
 
 `const` is also unique from `let` and `var` in that it is unchangeable (for the most part). Once a datatype has been assigned to a `const` variable, the datatype cannot be redefined. Attempting to do so would result in a code breaking error. 
 
