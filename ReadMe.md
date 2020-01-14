@@ -3,10 +3,10 @@
 
 ## Slideshow: 
 
-1. [HTML/CSS I Lecture Notes](#HTMLCSS-I-Lecture-Notes)
+1. [JavaScript 1 Lecture Notes](#JavaScript-1-Lecture-Notes)
 1. [Additional Resources](#additional-resources)
-1. [HTML/CSS I Mini Project](#HTMLCSS-I-Mini-Project)
-1. [HTML/CSS I Afternoon Project](#HTMLCSS-I-Afternoon-Project)
+1. [JavaScript I Mini Project](#JavaScript-1-Mini-Project)
+1. [JavaScript I Afternoon Project](#JavaScript-1-Afternoon-Project)
 
 ## Student Learning Objectives
 
@@ -435,22 +435,21 @@ person.name = 'Fred'
 
 > It is good practice to declare variables using `const`, only using `let` and `var` when needed. That said, what is more important is building an understanding of the differences between them, and deciding which applies best in any given circumstance. 
 
-### Additional Resources
+# Additional Resources
 
----
+## General
 
-#### General
+* [JavaScript \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - General docs for JavaScript. MDN should be your first step when investigating any new JavaScript topic
+* [JavaScript basics - Learn web development \| MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) - The ultimate beginners guide to JavaScript, including instructions on connecting JavaScript and HTML.
+* [Codewars](https://www.codewars.com/dashboard) - Great resource to practice problem solving and aquaint yourself with basic JavaScript concepts.
+* [Repl.it](https://repl.it/~) - Code sandbox to practice JavaScript.
 
----
+## Videos
+* [Traversy Media Javascript Intro](https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=2&t=0s) - An introduction to many of the topics covered here.
+  > Although this video is long, watching it will greatly deepen your understanding of the discussed topics and prepare you for the more advanced topics we will be covering very soon. Students are strongly encouraged to watch this video. 
 
-- [JavaScript \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - General docs for JavaScript. MDN should be your first step when investigating any new JavaScript topic
-- [JavaScript basics - Learn web development \| MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) - The ultimate beginners guide to JavaScript, including instructions on connecting JavaScript and HTML.
-- [Codewars](https://www.codewars.com/dashboard) - Great resource to practice problem solving and aquaint yourself with basic JavaScript concepts.
-- [Repl.it](https://repl.it/~) - Code sandbox to practice JavaScript.
+# JavaScript 1 Mini Project
+Embedded in Unit 1.3 at https://lms.devmountain.com/courses/70
 
-#### Videos
-
----
-
-- [Traversy Media Javascript Intro](https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=2&t=0s) - An introduction to many of the topics covered here.
-  > Although this video is long, watching it will greatly deepen your understanding of the discussed topics and prepare you for the more advanced topics we will be covering very soon.
+# JavaScript 1 Afternoon Project
+https://github.com/DevMountain/javascript-1-afternoon
