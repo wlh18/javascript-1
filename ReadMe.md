@@ -1,6 +1,14 @@
-# JavaScript 1
 
-## Learning objectives
+# Lesson Sections
+
+## Slideshow: 
+
+1. [HTML/CSS I Lecture Notes](#HTMLCSS-I-Lecture-Notes)
+1. [Additional Resources](#additional-resources)
+1. [HTML/CSS I Mini Project](#HTMLCSS-I-Mini-Project)
+1. [HTML/CSS I Afternoon Project](#HTMLCSS-I-Afternoon-Project)
+
+## Student Learning Objectives
 
 <details>
 <summary>JavaScript Basics</summary>
@@ -81,17 +89,18 @@
 
 ---
 
-## Javascript 1 lecture notes
+## JavaScript 1 Lecture Notes
 
-### Introduction to JavaScript
-
----
+<details open>
+    <summary>Lecture Introduction</summary>
 
 In this lecture we introduce the basics of JavaScript, which, together with HTML and CSS make up the bulk of the internet. While HTML and CSS allow us to display information and style how it looks, JavaScript allows us to make things happen on our websites. Any interactivity or dynamic functionality of a website is usually done using JavaScript.
 
 > Note: JavaScript is regularly updated. The most significant update in recent years is known as ES6. Newly added features to ES6 can be found at [ECMAScript 6: New Features: Overview and Comparison](http://es6-features.org/#Constants)
->
+
 > As you study and learn more about JavaScript, it will be beneficial to know which features were added in ES6 or later versions of JavaScript
+
+</details>
 
 ### Javascript Basics
 
