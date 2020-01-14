@@ -355,7 +355,11 @@ function sayHi(person) {
 
 ---
 
-Beginning with ES6, we were given new ways to declare variables. We no longer have to use the `var` keyword and can instead declare variables using the `let` keyword and the `const` keyword. While `const` has some special properties, we use `let` the same way we use `var`
+Beginning with ES6, we were given new ways to declare variables. We no longer have to use the `var` keyword and can instead declare variables using the `let` keyword and the `const` keyword. While `const` and `let` have unique properties that make them unique from `var`. 
+
+For example, `let` and `const` are block scoped, unlike `var`, which is "hoisted" when javascript files are run. Don't worry about hoisting for now, it will be covered later. Just know that `let` and `const` are block scoped, while `var` is not. 
+
+`const` is also unique from `let` and `var` in that it is unchangeable (for the most part). Once a datatype has been assigned to a `const` variable, the datatype cannot be redefined. Attempting to do so would result in a code breaking error. 
 
 #### let
 
@@ -365,7 +369,7 @@ Beginning with ES6, we were given new ways to declare variables. We no longer ha
 let num = 10
 ```
 
-> The main difference between `let` and `var` is that `var` is functionally scoped, and `let` is block scoped. For example:
+> The main difference between `let` and `var` is that `var` is functionally scoped, while `let` is block scoped. For example:
 
 ```js
 function doThing() {
@@ -395,13 +399,13 @@ function doThing() {
 }
 ```
 
-> Note: Keep in mind this is just an example. It is not a good idea to reuse variable names across various scopes, each unique variable should have an appropriate name. Good naming convention is one of the most important habits you can develop.
+> Note: Keep in mind this is just an example. It is not a good idea to reuse variable names across various scopes, each unique variable should have an appropriate name. Good naming convention is an important habit to develop.
 
 #### const
 
 ---
 
-`const` is a little different from `let` in that it cannot be reassigned after being declared. However, if an object or an array is assigned to a `const` variable, you can change their contents (properies on an object, indicies on an array). Let's see an example:
+`const` is different from `let` and `var` in that it cannot be reassigned after being declared. However, if an object or an array datatype is assigned to a `const` variable, you *can* reassign the content of the variable (properties on an object, indices on an array). Let's see an example:
 
 ```js
 const num = 10
@@ -420,7 +424,7 @@ person.name = 'Fred'
 //This will work just fine
 ```
 
-> It is good practice to declare all of your variables using `const` and use `let` only when needed. This will make your code less bug prone.
+> It is good practice to declare variables using `const`, only using `let` and `var` when needed. That said, what is more important is building an understanding of the differences between them, and deciding which applies best in any given circumstance. 
 
 ### Additional Resources
 
