@@ -1,7 +1,7 @@
 
 # Lesson Sections
 
-## Slideshow: 
+## Slideshow: https://slides.com/matias_perez/intro-to-javascript/
 
 1. [JavaScript 1 Lecture Notes](#JavaScript-1-Lecture-Notes)
 1. [Additional Resources](#additional-resources)
