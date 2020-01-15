@@ -433,7 +433,7 @@ person.name = 'Fred'
 //This will work just fine
 ```
 
-> It is good practice to declare variables using `const`, only using `let` and `var` when needed. That said, what is more important is building an understanding of the differences between them, and deciding which applies best in any given circumstance. 
+> It is good practice to declare variables that are hardcoded or that you do not want to change using `const`. 
 
 # Additional Resources
 
