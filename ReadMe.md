@@ -1,4 +1,6 @@
 
+## Lecture Code
+
 # Lesson Sections
 
 ## Slideshow: https://slides.com/matias_perez/intro-to-javascript/
