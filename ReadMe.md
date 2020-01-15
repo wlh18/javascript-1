@@ -439,6 +439,7 @@ person.name = 'Fred'
 
 ## General
 
+* [javascript.info](https://javascript.info) - Matias' hands down, personal favorite resource for learning all things JavaScript, from 0 to hero. 
 * [JavaScript \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - General docs for JavaScript. MDN should be your first step when investigating any new JavaScript topic
 * [JavaScript basics - Learn web development \| MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) - The ultimate beginners guide to JavaScript, including instructions on connecting JavaScript and HTML.
 * [Codewars](https://www.codewars.com/dashboard) - Great resource to practice problem solving and aquaint yourself with basic JavaScript concepts.
