@@ -1,6 +1,6 @@
 
 ## Lecture Code
-https://repl.it/@matias_perez/javascript-1-lecture-code
+https://repl.it/@awestenskow/javascript-1-wlh18
 
 # Lesson Sections
 
