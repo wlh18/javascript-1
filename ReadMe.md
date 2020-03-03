@@ -4,7 +4,7 @@ https://repl.it/@awestenskow/javascript-1-wlh18
 
 # Lesson Sections
 
-## Slideshow: https://slides.com/matias_perez/intro-to-javascript/
+## Slideshow: https://slides.com/awestenskow/javascript-1#/
 
 1. [JavaScript 1 Lecture Notes](#JavaScript-1-Lecture-Notes)
 1. [Additional Resources](#additional-resources)
